@@ -9,14 +9,13 @@
     height: 100vh;
     width: 100%;
     background-color: rgb(38, 110, 87);
-    background-position: center;
     background-size: cover;
 }
 
 .primeira-image {
-    width: 600px;
-    height: 600px;
-    margin-left: 1500px;
+    width: 500px;
+    height: 500px;
+    margin-left: 1300px;
     margin-top: 300px;
     position: absolute;
     border-radius: 600px;
@@ -95,7 +94,6 @@ section {
     align-items: center;
     padding: 60 20%px;
     background-color: rgb(8, 93, 73);
-    text-align: center;
     justify-content: center;
 
 }
@@ -291,7 +289,10 @@ font-weight: 300;
 
 }
 section{
-display: block;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 
 }
 .image-foto{
@@ -347,7 +348,11 @@ margin-left: 20px;
 
 }
 .projetos p{
- display: none;   
+display: none;
+}
+.projetos a{
+font-size: 16px;
+
 }
 .card img{
 height: 60px;
@@ -359,6 +364,7 @@ font-size: 16px;
 }
 .card a{
 font-size: 15px;
-
+width: 100px;
+height: 200px;
 }
 }
