@@ -57,7 +57,10 @@ li:hover {
     transition: 0.6s;
 
 }
-
+.link-menu{
+ text-decoration: none; 
+color: #ffffff;   
+}
 .meu-nome {
     position: absolute;
     top: 50%;
@@ -92,9 +95,11 @@ h1 span {
 section {
     display: flex;
     align-items: center;
-    padding: 60 20%px;
+    padding:  20%;
     background-color: rgb(8, 93, 73);
     justify-content: center;
+    overflow: hidden;
+    
 
 }
 
@@ -137,7 +142,8 @@ section div button {
     border-radius: 26px;
     border: none;
     cursor: pointer;
-    margin-left: 50px;
+    margin-left: 150px;
+    
 }
 
 section div button:hover {
@@ -211,6 +217,7 @@ section div button:hover {
     margin-top: 100px;
 
 }
+
 
 footer {
     background-color: #0e3b31;
