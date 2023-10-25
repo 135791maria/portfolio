@@ -40,7 +40,7 @@ nav {
 .portfolio span {
     color: #0c0809;
     font-size: 70px;
-    font-weight: 800;
+    font-weight: 800px;
 }
 
 li {
@@ -64,7 +64,7 @@ color: #ffffff;
 .meu-nome {
     position: absolute;
     top: 50%;
-    left: 5%;
+    left: 6%;
 
 
 }
